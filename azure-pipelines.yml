@@ -44,7 +44,7 @@ stages:
       environment: Prod
     dependsOn:
     - devDeploy
-    - OnDeploy
+    - QADeploy
     jobs:
     - job: ProdDeployJob
       steps:
